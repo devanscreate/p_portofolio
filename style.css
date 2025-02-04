@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.jumbroton {
+  padding-top: 6rem;
+  background-color: #e9ecef;
+}
+
+#projects {
+  background-color: #e9ecef;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+footer {
+  position: relative;
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-svg {
+  position: absolute;
+  top: -20px; /* Atur agar SVG berada tepat di atas footer */
+  left: 0;
+  width: 100%;
+  height: auto;
+}
