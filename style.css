@@ -37,3 +37,12 @@ footer {
   width: 100%;
   height: auto;
 }
+
+.card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
